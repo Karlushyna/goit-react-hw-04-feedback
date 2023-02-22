@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import styles from "./section.module.css";
 
 export const Section = ({ title, children }) => (
-    <div>
+    <div className={styles.container}>
         <h2 className={styles.title}>{title}</h2>
         {children}  
     </div>
